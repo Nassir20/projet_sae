@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello NassirController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+</div>
+<head>
+    <title>CV de Nassir Abdelmalik</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <header>
+        <h1>CV de Nassir Abdelmalik</h1>
+    </header>
+    
+    <section>
+        <div class="prez">
+            <h2>Qui suis-je ?</h2>
+            <p>Je m'appelle Nassir Abdelmalik et je suis etudiant en  1ére année de réseau et telecomsà l'iut de Roanne.</p>
+            <a href="#" download>Télécharger mon CV</a>
+        </div>
+        <div class="contact">
+            <h2>Informations de contact</h2>
+            <div class="contact-flex">
+                <p>Nom : </p>
+                <p>Nassir Abdelmalik</p>
+            </div>
+            <div class="contact-flex">
+                <p>Adresse : </p>
+                <p>53 Boulevard de belgique, Roanne</p>
+            </div>
+            <div class="contact-flex">
+                <p>Téléphone :</p>
+                <p>07 51 02 69 80</p>
+            </div>
+            <div class="contact-flex">
+                <p>Mail : </p>
+                <p><a href="mailto:pierre.giraud@edhec.com">malicknasser0@gmail.com</a></p>
+            </div>
+            <div class="contact-flex">
+                <p>Permis :</p>
+                <p>B</p>
+            </div>
+            <div class="social">
+                <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/fb.png" alt="Logo Fb"></a>
+                <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/tw.png" alt="Logo Tw"></a>
+                <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/lk.png" alt="Logo Lk"></a>
+                <a href="#"><img src="https://www.pierre-giraud.com/wp-content/uploads/2019/07/yt.png" alt="Logo Yt"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><a href="https://www.pierre-giraud.com">©NassirAbdelmalik</a> 2022</p>
+        <p>Reproduction à des fins commerciales interdite.</p>
+    </footer>
+{% endblock %}
